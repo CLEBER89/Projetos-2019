@@ -1,0 +1,210 @@
+
+     
+ 
+
+body {
+     background: rgb(17, 17, 45); 
+        
+         background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/49174/hexabump.png); 
+       overflow:hidden; 
+        
+}
+
+
+
+#animation_holder {
+    
+       width: 100%;
+  float: left;
+  position: relative;
+ 
+}
+
+#bugatti_veyron {position:relative; float:left; width:100%;    }
+
+#bugatti_v {
+    
+  display: block;
+  width: 100%;
+ 
+  position: relative;
+  max-width: 980px;
+  margin: 0 auto; 
+} 
+
+ 
+      /* veyron Heading    */
+     
+     
+     
+
+
+     
+ #veyron_rear_break, #veyron_front_break  { position:absolute; bottom:35px; }
+ 
+   #veyron_front_break { }    
+     
+
+   
+ 
+
+
+#stage_2 {  position: absolute;
+   left:45px;
+   width:816px; 
+   top:52px;  }
+
+ 
+
+img#bugatti_v_tire {  top: -133px;
+  left: 101px; }
+
+img#bugatti_v_tire_2 {
+  left: 476px;
+  top: -133px;
+} 
+
+
+
+#veyron_bumper, #veyron_frame, #veyron_siding, #veyron_fender, #veyron_tire, #veyron_tire_2, #veyron_window, #bugatti_v_tire, #bugatti_v_tire_2 {
+    position:relative; 
+}
+
+
+
+
+
+
+     
+     
+     
+     
+     
+     
+      
+     
+     /* veyron Animations    */
+     
+#carhold_1 {  
+  border: 1px solid transparent;
+  height: 352px;
+  margin: 50px auto 0;
+  position: relative;
+  width: 980px;
+  float: left; 
+     
+    }
+    
+#veyron_heading, #veyron_heading_3 {position:relative; font-weight:normal }
+      
+     
+#divider { width:500px; height:500px; display:block; margin:auto;}
+
+#veyron_ruler_holer_box {
+    
+      width: 900px;
+  height: 340px;
+  margin: 0px auto 0 auto;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0; 
+    
+    
+}
+
+#ruler_1_wrap{
+
+    height: 370px;
+    position: relative;
+     width: 1000px;
+    z-index: 9999;
+    
+    
+
+}   
+
+#veyron_scroll_1, #veyron_scroll_1 img {
+      position: absolute;
+  bottom: -125px; 
+}
+
+
+#ruler_horizontal_1, #ruler_horizontal_2 { position:relative;  }
+
+#veyron_hold_box { 
+    
+    width: 978px;
+  height: 229px;
+  position: absolute;
+  top: 60px;
+  left: -50px; 
+    
+    
+      } 
+
+
+  #veyron_hold_box img {opacity:0; }
+
+
+ #numbers_1 {
+     position:absolute; 
+     width:1000px;
+     bottom:12px;
+     left:4px;
+     padding:0;
+     margin:0;  
+     z-index: 77777777; 
+ }
+
+ #numbers_1 li {
+    float: left;
+  list-style: none outside none;
+  width: 67px;
+  text-align: center;
+  position: relative;
+  margin: 0 8px 0 0; 
+  font-family: sans-serif;
+ }
+
+
+
+ 
+ 
+.ruler_box_1 {
+  position: relative;
+float: left;
+width: 65px;
+height: 347px;
+margin: 4px;
+border-left:1px dashed #488FCD;
+border-right:1px dashed #488FCD;
+    
+}
+
+
+.ruler_mark {
+    
+    
+    border-left: 2px dotted #ccc;
+    border-right: 2px dotted #ccc;
+    height: 22px;
+    margin: 11px auto;
+    width: 33px;
+   
+    
+}
+
+
+
+.ruler_mark_2 {
+    
+    
+    border-left: 2px dotted rgba(204, 204, 204, 0.32);
+    height: 50px;
+    margin: 8px auto 0px auto;
+    width: 1px;
+    
+    
+    
+}
